@@ -43,3 +43,8 @@
 
 
 ## Screenshoot Cara Penggunaaan serta Contoh ketika Program Berjalan
+![Screenshot 2024-04-27 093008](https://github.com/hammamkarim/UTS-Progjar/assets/114963944/49d7606f-5c06-4600-ac25-c8f8d7200ec4)
+![Screenshot 2024-04-27 093045](https://github.com/hammamkarim/UTS-Progjar/assets/114963944/6b06103b-7836-4b79-a402-4ef6a32d82ba)
+![Screenshot 2024-04-27 093029](https://github.com/hammamkarim/UTS-Progjar/assets/114963944/8e1d930e-f818-4768-a362-0187f904be88)
+![Screenshot 2024-04-27 093741](https://github.com/hammamkarim/UTS-Progjar/assets/114963944/555a2254-fc89-4235-803e-79a9d26e9cec)
+
