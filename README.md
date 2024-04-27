@@ -15,6 +15,7 @@
         b. Server menunggu jawaban dari klien. Jika waktu habis tanpa jawaban dari klien, server memberikan timeout dan mengakhiri permainan saat itu.
       
         c. Jika server menerima jawaban dari klien, itu memeriksa kebenaran jawaban menggunakan `check_answer`. Jika benar, server mengirimkan feedback "100: Jawaban benar!", jika tidak, mengirimkan feedback "0: Jawaban salah".
-Server memberikan jeda selama 10 detik sebelum mengirimkan kata warna berikutnya.
+      
+         d. Server memberikan jeda selama 10 detik sebelum mengirimkan kata warna berikutnya.
 ### Client
 ### Fungsi Tambahan
