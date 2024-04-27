@@ -41,3 +41,5 @@
 3. **check_answer:**
     - Fungsi ini digunakan oleh server untuk memeriksa kebenaran jawaban klien terhadap kata warna yang dikirimkan. Ini membandingkan jawaban klien dengan kata warna yang sebenarnya, mengabaikan perbedaan kapitalisasi.
 
+
+## Screenshoot Cara Penggunaaan serta Contoh ketika Program Berjalan
