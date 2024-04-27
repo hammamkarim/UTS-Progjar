@@ -18,4 +18,18 @@
       
          d. Server memberikan jeda selama 10 detik sebelum mengirimkan kata warna berikutnya.
 ### Client
+1. **Inisialisasi Soket:**
+    - Klien menggunakan `socket.socket(socket.AF_INET, socket.SOCK_DGRAM)` untuk membuat objek soket UDP yang akan digunakan untuk komunikasi dengan server.
+2. **Koneksi ke Server:**
+    - Setelah membuat soket, klien mengirim permintaan koneksi ke server menggunakan `client_socket.sendto(b"Connect", ('localhost', 12345))`. Ini memulai komunikasi dengan server yang telah mengikat dirinya ke alamat dan port tertentu.
+3. **Permainan dengan Server:**
+    - Dalam loop utama:
+        a. Klien menerima kata warna dari server menggunakan `client_socket.recvfrom(1024)`. Kata warna ini dalam bahasa Inggris.
+      
+        b. Klien menampilkan kata warna dalam bahasa Inggris kepada pengguna dan meminta jawaban dari pengguna dalam bahasa Indonesia.
+      
+        c. Jawaban dari pengguna dikirim kembali ke server menggunakan `client_socket.sendto(color_ind.encode(), ('localhost', 12345))`.
+      
+        d. Klien menerima feedback dari server, memprosesnya, dan menampilkan jumlah total poin.
+
 ### Fungsi Tambahan
