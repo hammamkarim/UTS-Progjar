@@ -9,7 +9,7 @@
     - Setelah membuat soket, server mengikatnya ke alamat localhost dengan port 12345 menggunakan `server_socket.bind(('localhost', 12345))`. Kemudian, server menunggu permintaan koneksi dari klien dengan memanggil `server_socket.recvfrom(1024)`. Ini memungkinkan server untuk menerima permintaan koneksi dari klien.
 3. **Permainan Utama:**
     - Setelah koneksi berhasil dibuat, server memulai permainan dengan klien. Dalam loop utama:
-    - 
+      
         a. Server mengirimkan kata warna acak ke klien menggunakan fungsi `send_color`. Ini dipilih secara acak dari daftar warna yang telah ditentukan sebelumnya.
       
         b. Server menunggu jawaban dari klien. Jika waktu habis tanpa jawaban dari klien, server memberikan timeout dan mengakhiri permainan saat itu.
