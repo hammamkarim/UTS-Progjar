@@ -34,3 +34,10 @@
         d. Klien menerima feedback dari server, memprosesnya, dan menampilkan jumlah total poin.
 
 ### Fungsi Tambahan
+1. **send_color:**
+    - Fungsi ini digunakan oleh server untuk mengirimkan kata warna acak ke klien. Ini memilih warna secara acak dari daftar warna yang telah ditentukan sebelumnya.
+2. **send_feedback:**
+    - Fungsi ini digunakan oleh server untuk mengirimkan feedback ke klien setelah menerima jawaban dari klien. Feedback ini berisi informasi tentang kebenaran jawaban klien.
+3. **check_answer:**
+    - Fungsi ini digunakan oleh server untuk memeriksa kebenaran jawaban klien terhadap kata warna yang dikirimkan. Ini membandingkan jawaban klien dengan kata warna yang sebenarnya, mengabaikan perbedaan kapitalisasi.
+
