@@ -24,6 +24,7 @@
     - Setelah membuat soket, klien mengirim permintaan koneksi ke server menggunakan `client_socket.sendto(b"Connect", ('localhost', 12345))`. Ini memulai komunikasi dengan server yang telah mengikat dirinya ke alamat dan port tertentu.
 3. **Permainan dengan Server:**
     - Dalam loop utama:
+      
         a. Klien menerima kata warna dari server menggunakan `client_socket.recvfrom(1024)`. Kata warna ini dalam bahasa Inggris.
       
         b. Klien menampilkan kata warna dalam bahasa Inggris kepada pengguna dan meminta jawaban dari pengguna dalam bahasa Indonesia.
